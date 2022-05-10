@@ -1,0 +1,130 @@
+body {
+    background-color: #191C1F;
+    margin: 0;
+    background-size: cover;
+}
+header {
+    margin-bottom: 0.5rem;
+    background: rgba(32, 33, 34, 0.5);
+    color:#CF3736;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 3rem;
+    position: sticky;
+    top: 0;
+}   
+a {
+    background-color: #191714;
+    border: 0.2rem solid #CF3736    ;
+    border-radius: 2rem;
+    margin-left: 1.5rem;
+    color: #CF3736;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+.everything {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+h1 {
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+h2 {
+    color: rgb(192, 178, 178);
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+
+    text-decoration: underline;
+}
+.descricao {
+    background-color:rgb(192, 178, 178) ;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 10rem;
+    color: #191714;
+    border-color: rgba(32, 33, 34, 0.5);
+    border-radius: 2rem;
+    padding: 1.5rem;
+    font-size: 2rem;
+}
+.images {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    margin-bottom: 10rem;
+    margin-left: 25rem;
+    margin-right: 20rem;
+}
+.img1 {
+    padding-bottom: 10rem;
+}
+.img2 {
+    padding-bottom: 10rem;
+}
+.video {
+    margin-left: 25rem;
+    margin-right: 20rem;
+    margin-bottom: 10rem;
+}
+.instruções {
+    background-color:rgb(192, 178, 178) ;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 10rem;
+    color: #191714;
+    border-color: rgba(32, 33, 34, 0.5);
+    border-radius: 2rem;
+    padding: 1.5rem;
+    font-size: 2rem;
+}
+ul {
+    background-color: rgb(192, 178, 178);
+    font-size: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 10rem;
+    color: #191714;
+    border-color: rgba(32, 33, 34, 0.5);
+    border-radius: 2rem;
+    padding-left: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.log {
+    background-color:rgb(192, 178, 178) ;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 10rem;
+    color: #191714;
+    border-color: rgba(32, 33, 34, 0.5);
+    border-radius: 2rem;
+    padding: 1.5rem;
+    font-size: 2rem;
+}
+.comparacoes {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+.comp1 {
+    margin-right: 5rem;
+    border: 0.2rem solid rgb(192, 178, 178) ;
+}
+.comp2 {
+    border: 0.2rem solid rgb(192, 178, 178) ;
+}
+.ad {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+* {
+    scroll-behavior: smooth;
+}
